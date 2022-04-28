@@ -15,6 +15,10 @@
     -moz-osx-font-smoothing: grayscale
 }
 
+.fa-chevron-up:before {
+    content: "\f077"
+}
+
 .fa-twitter:before {
     content: "\f099"
 }
