@@ -370,17 +370,20 @@ a:hover {
     z-index: 2;
 }
 
+.site-navigation {
+    text-decoration: none;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
+
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
     }
     .nav-invert .site-navigation {
         left: 0;
