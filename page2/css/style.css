@@ -10,7 +10,8 @@ body {
 }
 
 a {
-    color: #000000;
+    color: rgba(0, 0, 0, .6);
+    text-decoration: none;
 }
 
 a,
@@ -22,6 +23,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: #333333;
 }
 
 #page-loading-blocs-notifaction {
@@ -29,7 +31,7 @@ a:hover {
     top: 0;
     bottom: 0;
     width: 100%;
-    z-index: 100000;
+    z-index: 1;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
@@ -38,6 +40,10 @@ a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.bottom-row {
+    padding: 0 20px;
 }
 
 .bloc {
@@ -66,6 +72,9 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .bg-center,
@@ -741,6 +750,7 @@ h4 {
 .white {
     color: #000000;
     font-size: 16px;
+    padding: 0 20px;
 }
 
 .portfolio-thumb {
